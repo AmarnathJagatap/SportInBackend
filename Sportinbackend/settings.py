@@ -32,7 +32,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'Products',
     'rest_framework',
-    'coreheaders',
+    'corsheaders',
 ]
 
 CORS_ORIGIN_ALLOW_ALL= True
@@ -45,7 +45,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-        'corsheaders.middleware.CorsMiddleware',
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
 ]
