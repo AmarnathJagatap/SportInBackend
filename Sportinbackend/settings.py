@@ -31,8 +31,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Products',
-    'rest_framework'
+    'rest_framework',
+    'coreheaders',
 ]
+
+CORS_ORIGIN_ALLOW_ALL= True
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
